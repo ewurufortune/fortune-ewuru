@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: #5c008a;
+    background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+    opacity: 1;
+    font-family:  Helvetica, sans-serif, sans-serif;
+}
+
+ /* personal */
+ .dragbox{
+  height: 500px;
+  background-color: aqua;
+ }
+ /* Add a grey background color and some padding to the footer */
+footer {
+  margin-top: 10%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.aoi {
+  margin: 10px;
+}
+/* Responsive layout - make the footer appear at the bottom of the page on small screens */
+@media (max-width: 600px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
