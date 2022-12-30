@@ -31,6 +31,9 @@
       "react-app/jest"
     ]
   },
+  "builds": [
+    { "src": "app.js", "use": "@vercel/node" }
+ ],
   "browserslist": {
     "production": [
       ">0.2%",
