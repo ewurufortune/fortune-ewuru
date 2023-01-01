@@ -19,17 +19,31 @@ export default function ProjectsGrid() {
     <Box sx={{ flexGrow: 1 }}>
     <Carousel cols={2} rows={1} gap={10} loop>
       <Carousel.Item>
-        <img width="100%"  alt="" src="https://picsum.photos/800/600?random=1" />
+<a rel='noreferrer' target="_blank" href='https://carsalessitefortuneewuru.netlify.app/'> <img width="100%" alt=""  src="https://pbs.twimg.com/media/FlWnm3JWAAA1bUK?format=jpg&name=large" /></a> 
       </Carousel.Item>
       <Carousel.Item>
-        <img width="100%"  alt="" src="https://picsum.photos/800/600?random=2" />
+<a  rel='noreferrer' target="_blank"  href='https://auto-avenue.netlify.app/'> <img width="100%" alt=""  src="https://pbs.twimg.com/media/FlWndWvX0AU1WbV?format=jpg&name=large" /></a> 
       </Carousel.Item>
       <Carousel.Item>
-        <img width="100%" alt=""  src="https://picsum.photos/800/600?random=3" />
+      <a rel='noreferrer'  target="_blank"  href='https://chart-sim.vercel.app/'> <img width="100%" alt=""  src="https://pbs.twimg.com/media/FlWnbDvXEAQFR2T?format=png&name=large" /></a>  
       </Carousel.Item>
       <Carousel.Item>
-      <img width="100%" alt=""  src="https://picsum.photos/800/600?random=4" />
+<a  rel='noreferrer'  target="_blank" href='https://edtechx.vercel.app/'> <img width="100%" alt=""  src="https://pbs.twimg.com/media/FlWnh4fXgAEbodv?format=jpg&name=large" /></a> 
       </Carousel.Item>
+       <Carousel.Item>
+<a  rel='noreferrer'  target="_blank" href='https://careerxp.onrender.com'> <img width="100%" alt=""  src="https://picsum.photos/800/600?random=5" /></a> 
+      </Carousel.Item>
+       <Carousel.Item>
+<a  rel='noreferrer'  target="_blank" href='https://todolist-with-database.onrender.com'> <img width="100%" alt=""  src="https://pbs.twimg.com/media/FlWnZIRXwAAfo8Y?format=png&name=small" /></a> 
+      </Carousel.Item>
+       <Carousel.Item>
+<a  rel='noreferrer'  target="_blank" href='https://fortunes-journal.onrender.com'> <img width="100%" alt=""  src="https://picsum.photos/800/600?random=7" /></a> 
+      </Carousel.Item>
+       <Carousel.Item>
+<a  rel='noreferrer'  target="_blank" href='https://oursource.onrender.com'> <img width="100%" alt=""  src="https://pbs.twimg.com/media/FlWnktIXgAACfO1?format=jpg&name=large" /></a> 
+      </Carousel.Item>
+
+      
       {/* ... */}
     </Carousel>
 <br/>
