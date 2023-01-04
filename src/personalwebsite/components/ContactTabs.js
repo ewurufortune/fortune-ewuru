@@ -64,26 +64,38 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-  
-      <Chip label="LinkedIn" component="a" href="#basic-chip" clickable icon={<LinkedInIcon style={{ color: 'blue' }}/>} />
+  <div className='chip'>
+      <Chip  label="LinkedIn" component="a" href="https://www.linkedin.com/in/fortuneewuru/" clickable icon={<LinkedInIcon style={{ color: 'blue' }}/>} />
+</div>
+<div className='chip'>
+<Chip label="Github" component="a" href="https://github.com/ewurufortune" clickable icon={<GitHubIcon style={{ color: 'white',backgroundColor:'black' }}/>} />
 
-      <Chip label="Github" component="a" href="#basic-chip" clickable icon={<GitHubIcon style={{ color: 'white',backgroundColor:'black' }}/>} />
+</div>
 
-
-      <Chip label="Upwork" component="a" href="#basic-chip" clickable icon={<SensorOccupiedIcon style={{ color: 'green' }}/>} />
+      <div className='chip'>
+      <Chip label="Fiverr" component="a" href="https://www.fiverr.com/fortuneewuru1" clickable icon={<SensorOccupiedIcon style={{ color: 'green' }}/>} />
+      </div>
 
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <Chip label="Twitter" component="a" href="#basic-chip" clickable icon={<TwitterIcon style={{ color: 'blue' }}/>} />
+      <div className='chip'>
+      <Chip label="Twitter" component="a" href="https://twitter.com/ewurufortune" clickable icon={<TwitterIcon style={{ color: 'blue' }}/>} />
 
+      </div>
 
+      <div className='chip'>
       <Chip label="Reddit" component="a" href="#basic-chip" clickable icon={<RedditIcon style={{ color: 'red' }}/>} />
+      </div>
 
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <Chip label="Github Repo" component="a" href="#basic-chip" clickable icon={<GitHubIcon style={{ color: 'white',backgroundColor:'black' }}/>} />
-
+      <div className='chip'>
+      <Chip label="Github Repo" component="a" href="https://github.com/ewurufortune?tab=repositories" clickable icon={<GitHubIcon style={{ color: 'white',backgroundColor:'black' }}/>} />
+      </div>
+      <div className='chip'>
       <Chip label="WhatsApp" component="a" href="#basic-chip" clickable icon={<WhatsAppIcon style={{ color: 'green' }}/>} />
+
+      </div>
  </TabPanel>
     </Box>
   );

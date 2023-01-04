@@ -29,3 +29,7 @@ footer {
   }
 }
 /* img{width: 500px;} */
+.chip{
+  display: inline;
+  margin: 0 30px;
+}
