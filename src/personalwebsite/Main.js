@@ -169,8 +169,7 @@ function Main(){
 Projects     
 </Typography>
          <Typography variant="subtitle1" gutterBottom>
-  Creating not just useful but also entertaining programms is something i absolutely love doing!
-   I invite you to take a peek at some of the projects i've been working on
+  Creating not just useful but also entertaining programs is something I absolutely love doing! I invite you to take a peek at some of the projects I've been working on
       </Typography>
       <ProjectsGrid />
           </Item>
